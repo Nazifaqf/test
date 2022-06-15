@@ -1,5 +1,4 @@
 
-package trains;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -8,11 +7,11 @@ import java.util.ListIterator;
 import java.util.Scanner;
 
 
-public class Graph {
+public class Navigation {
 	List<Station> stations; //list of nodes
 	List<Route> routes; //list of edges
 	
-	public Graph(){
+	public Navigation(){
 		stations = new ArrayList<Station>();
 		routes = new ArrayList<Route>();
 	}
